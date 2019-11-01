@@ -1,5 +1,5 @@
 # Systems Puzzle
-----
+
 *Note:* I knew what the `Docker` and `Flask` are, but had never used them before. Hence, some of the solution steps are not optimal or expected ones.
 
 Following installation and startup instructions I should have `nginx` mapped to the port 8080 and get some response
@@ -38,7 +38,7 @@ The next run gave me an output in the form of `[<models.Items object at 0x7fdcb1
 	
 	flaskapp_db=# select * from items;
     id |  name  | quantity | description |         date_added
-    ----+--------+----------+-------------+----------------------------
+    ---+--------+----------+-------------+----------------------------
      1 | abcd   |        1 | qwert       | 2019-10-31 22:12:10.109295
      2 | test   |      123 | tset        | 2019-10-31 22:16:20.506947
     (2 rows)
